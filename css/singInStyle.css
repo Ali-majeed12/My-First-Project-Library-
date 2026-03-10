@@ -1,0 +1,137 @@
+html {
+    animation: fadeIn 0.8s ease-in-out;
+}
+
+@keyframes fadeIn {
+    from {
+        transform: translateY(10px)
+    }
+
+    to {
+        transform: translateY(0);
+    }
+}
+
+body {
+    margin: 0;
+    background-color: #1B120A;
+    font-family: "Lora", serif;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
+}
+
+/* start styling of header */
+
+header {
+    padding: 20px 7%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-radius: 0 0 15px 15px;
+    box-shadow: 0 0 25px 0 #8d5e38;
+}
+
+.logo {
+    width: 100px;
+}
+
+header a {
+    color: #DCB696;
+    padding: 0 15px;
+    text-decoration: none;
+    transition: all 0.6s ease-in-out;
+}
+
+header a:hover {
+    color: #CD8851;
+    transition: all 0.6s ease-in-out;
+}
+
+header button {
+    background-color: #7C4D26;
+    color: #f7f0ea;
+    padding: 10px 13px;
+    border-radius: 15px;
+    border: none;
+    margin: 0 0 0 7px;
+    font-family: "Lora", serif;
+    box-shadow: 0 0 15px 0 #8d5e38;
+    transition: all 0.6s ease-in-out;
+}
+
+header button:hover {
+    color: #dac4af;
+    border-radius: 10px;
+    transform: scale(1.1);
+    background-color: #914600;
+    box-shadow: 0 0 15px 0 #914600;
+    transition: all 0.6s ease-in-out;
+}
+
+/* end styling of header */
+
+/* start styling of singIn page */
+
+.singIn {
+    align-items: center;
+    flex-direction: column;
+    display: flex;
+    gap: 10px;
+    padding: 8%;
+    height: 50vh;
+}
+
+.singIn-information {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-direction: column;
+    gap: 15px;
+    padding: 14%;
+    background-color: #7C4D26;
+    border-radius: 25px;
+    box-shadow: #7C4D26 0 0 10px 0;
+}
+
+.singIn-information ul {
+    display: flex;
+    flex-direction: column;
+    align-items: fflex-start;
+    gap: 5px;
+    align-items: center;
+}
+
+.singIn-information label {
+    color: #ffffff;
+}
+
+.singIn-information input {
+    background-color: #1B120A;
+    color: aliceblue;
+    border-radius: 10px;
+    border: none;
+    height: 30px;
+    width: 200px;
+    padding: 0 10px;
+}
+
+.singIn-information input[type=submit] {
+    background-color: #391f0a;
+    color: #f7f0ea;
+    padding: 10px 13px;
+    border-radius: 15px;
+    border: none;
+    font-family: "Lora", serif;
+    box-shadow: #1B120A  0 0 10px 0;
+    transition: all 0.6s ease-in-out;
+}
+
+.singIn-information input[type=submit]:hover {
+    color: #ffffff;
+    background-color: #a3754d;
+    transition: all 0.6s ease-in-out;
+    box-shadow: #a3754d  0 0 10px 0;
+    transform: scale(1.1);
+}
+

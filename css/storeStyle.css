@@ -1,0 +1,117 @@
+html {
+    animation: fadeIn 0.8s ease-in-out;
+}
+
+@keyframes fadeIn {
+    from {
+        transform: translateY(10px)
+    }
+
+    to {
+        transform: translateY(0);
+    }
+}
+
+
+body {
+    margin: 0;
+    background-color: #4f2f1d;
+    font-family: "Lora", serif;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
+}
+
+/* start styling of header */
+
+header {
+    background-color: #2d1d14;
+    padding: 20px 7%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-radius: 0 0 15px 15px;
+    box-shadow: 10px 4px 0 10px #faf8f8;
+}
+
+.logo {
+    width: 100px;
+}
+
+header a {
+    color: #ede9e5;
+    padding: 0 15px;
+    text-decoration: none;
+    transition: all 0.6s ease-in-out;
+}
+
+header a:hover {
+    color: #c3a994;
+    transition: all 0.6s ease-in-out;
+}
+
+header button {
+    background-color: #ffffff;
+    color: #9d8168;
+    padding: 10px 13px;
+    border-radius: 15px;
+    border: none;
+    margin: 0 0 0 7px;
+    font-family: "Lora", serif;
+    box-shadow: 0 0 15px 0 #b6ada6;
+    transition: all 0.6s ease-in-out;
+}
+
+header button:hover {
+    color: #ffffff;
+    border-radius: 10px;
+    transform: scale(1.1);
+    background-color: #7a726a;
+    box-shadow: 0 0 15px 0 #7a726a;
+    transition: all 0.6s ease-in-out;
+}
+
+/* end styling of header */
+
+/* start styling of cards of books */
+
+.container {
+    color: rgb(255, 255, 255);
+    text-decoration: none;
+    height: 25%;
+}
+
+.container h1 {
+    align-self: flex-start;
+    padding: 34px 7% 0;
+}
+
+.container a {
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+}
+
+
+
+.books-container {
+    padding: 20px 7%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.img_and_information img {
+    width: 170px;
+    height: 240px;
+    border-radius: 15px;
+    box-shadow: #fafafa 5px 5px;
+    transition: all 0.6s ease-in-out;
+}
+
+.img_and_information img:hover {
+    transform: scale(1.1);
+    box-shadow: 4px 4px #b4b4b4 0.6s;
+    transition: 0.6s ease-in-out;
+    filter:brightness(1.3)
+}
